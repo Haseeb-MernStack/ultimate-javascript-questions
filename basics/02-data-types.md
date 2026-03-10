@@ -34,64 +34,82 @@ Strings represent **textual data**.
 ```javascript
 let name = "Malik";
 let message = "Hello World";
+```
 
-2. Number
+## 2. Number
 
-Numbers represent numeric values.
+Numbers represent **numeric values**.
 
+```javascript
 let age = 25;
 let price = 99.99;
+```
 
 JavaScript numbers include:
 
+```javascript
 Integers
 
 Floating point numbers
+```
 
-3. Boolean
+## 3. Boolean
 
-Boolean represents true or false values.
+Boolean represents **true or false** values.
 
+```javascript
 let isLoggedIn = true;
 let hasPermission = false;
+```
 
-4. Undefined
+## 4. Undefined
 
-A variable that is declared but not assigned a value has the value undefined.
+A variable that is declared but not assigned a value has the value **undefined**.
 
+```javascript
 let user;
 console.log(user); // undefined
+```
 
-5. Null
+## 5. Null
 
-null represents an intentional absence of value.
+null represents an intentional **absence** of value.
 
+```javascript
 let data = null;
+```
 
 Difference
 
+```javascript
 undefined → value not assigned
 
 null → value intentionally empty
+```
 
-6. Symbol
+## 6. Symbol
 
-Symbols create unique identifiers.
+Symbols create unique **identifiers**.
 
+```javascript
 const id = Symbol("id");
+```
 
 Each symbol is unique.
 
-7. BigInt
+## 7. BigInt
 
-BigInt is used for very large integers beyond the limit of normal numbers.
+BigInt is used for very **large integers** beyond the limit of normal numbers.
 
+```javascript
 const bigNumber = 123456789012345678901234567890n;
+```
 
-2. Non-Primitive (Reference) Data Types
+## 2. Non-Primitive (Reference) Data Types
 
 These store collections of data and are stored by reference.
 
+```javascript
 Main non-primitive types:
 
 Object
@@ -101,29 +119,35 @@ Array
 Function
 
 Object
+```
 
-Objects store key-value pairs.
+**Objects** store key-value pairs.
 
+```javascript
 const user = {
-name: "Malik",
-age: 21
+  name: "Malik",
+  age: 21,
 };
+```
 
-Array
+**Array**
 
-Arrays store multiple values in a single variable.
+Arrays store multiple values in a **single** variable.
 
+```javascript
 const numbers = [1, 2, 3, 4];
+```
 
-Function
+**Function**
 
-Functions are also objects in JavaScript.
+Functions are also **objects** in JavaScript.
 
+```javascript
 function greet() {
-console.log("Hello");
+  console.log("Hello");
 }
 
-Example
+Example;
 let a = 10;
 let b = a;
 
@@ -131,34 +155,38 @@ b = 20;
 
 console.log(a); // 10
 console.log(b); // 20
+```
 
 Primitive values are copied, not referenced.
 
-Summary
+**Summary**
 
-JavaScript has two types of data types.
+JavaScript has two types of **data types**.
 
-Primitive
+**Primitive**
 
-String
+```javascript
+String;
 
-Number
+Number;
 
-Boolean
+Boolean;
 
-Undefined
+Undefined;
 
-Null
+Null;
 
-Symbol
+Symbol;
 
-BigInt
+BigInt;
+```
 
-Non-Primitive
+**Non-Primitive**
 
-Object
+```javascript
+Object;
 
-Array
+Array;
 
-Function
+Function;
 ```
